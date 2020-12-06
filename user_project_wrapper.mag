@@ -1,6 +1,8 @@
 magic
 tech sky130A
-timestamp 1606942031
+timestamp 1607239361
+<< checkpaint >>
+rect -1130 -1130 293130 353130
 << metal2 >>
 rect 4043 351760 4099 352480
 rect 12139 351760 12195 352480
@@ -9806,6 +9808,14 @@ rect 248802 -3753 249102 -3752
 rect 266802 -3753 267102 -3752
 rect 284802 -3753 285102 -3752
 rect 295950 -3753 296250 -3752
+use fpga_top  fpga_top_0 ./mag
+timestamp 1607239361
+transform 1 0 0 0 1 0
+box -500 -500 292500 352500
+use fpga_top  fpga_top_uut
+timestamp 1607239361
+transform 1 0 0 0 1 0
+box -500 -500 292500 352500
 << labels >>
 rlabel metal3 s 291760 2898 292480 3018 6 analog_io[0]
 port 0 nsew default bidirectional
@@ -12287,12 +12297,6 @@ rlabel metal5 s -4288 15338 240 15638 4 vssa2
 port 1238 nsew default input
 rlabel metal5 s -4288 -3752 296250 -3452 8 vssa2
 port 1239 nsew default input
-use fpga_top fpga_top_uut
-transform 1 0 0 0 1 0
-box 0 0 2500 3000
-use fpga_top fpga_top_uut
-transform 1 0 0 0 1 0
-box 0 0 2500 3000
 << properties >>
 string FIXED_BBOX 0 0 292000 352000
 << end >>
