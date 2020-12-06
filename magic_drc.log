@@ -7884,6 +7884,7 @@ Reading "$$M1M2_PR_C".
 Warning: cell <user_project_wrapper> from file ./mag/user_project_wrapper.mag is not writeable
 Scaled magic input cell user_project_wrapper geometry by factor of 2
 Setting instance-id of cell fpga_top to fpga_top_0
+Setting instance-id of cell fpga_top to fpga_top_1
 Processing timestamp mismatches: fpga_top.
    Writing cell user_project_wrapper
    Writing cell fpga_top
